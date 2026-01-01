@@ -1,3 +1,7 @@
+mod uno;
+
+
 fn main() {
-    println!("Hello, world!");
+    uno::say_hello();
+    println!("{}", uno::shot_name("test", "lighting", 3))
 }
