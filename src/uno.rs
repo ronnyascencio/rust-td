@@ -10,7 +10,9 @@ pub fn shot_name(name: &str, department: &str, version: i32) -> String{
 
     let new_name: String = sn.replace(name, &name_upper);
 
-    new_name
+    let result = format!("{}, {}", sn, new_name);
+    
+    result
     
 
     
